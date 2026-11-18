@@ -1,0 +1,20 @@
+name: music_genre_classification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=24.0
+  - numpy=1.24.3
+  - scipy=1.11.4
+  - matplotlib=3.8.2
+  - seaborn=0.13.0
+  - scikit-learn=1.3.2
+  - soundfile=0.12.1
+  - pip:
+    - librosa==0.10.1
+    - tensorflow>=2.15.0,<2.17.0
+    - audioread==3.0.1
+    - streamlit==1.32.2
+    - kagglehub==0.2.7
+    - python-dotenv==1.0.1
